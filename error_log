@@ -1,0 +1,307 @@
+[12-May-2019 08:47:04 UTC] PHP Notice:  Undefined index: msg in /home/vjg3ni8aszyy/public_html/hagza.php on line 137
+[12-May-2019 08:47:04 UTC] PHP Notice:  Undefined index: msgtwo in /home/vjg3ni8aszyy/public_html/hagza.php on line 141
+[12-May-2019 09:14:52 UTC] PHP Notice:  Undefined index: msg in /home/vjg3ni8aszyy/public_html/hagza.php on line 137
+[12-May-2019 09:14:52 UTC] PHP Notice:  Undefined index: msgtwo in /home/vjg3ni8aszyy/public_html/hagza.php on line 141
+[19-Aug-2019 13:16:39 UTC] PHP Notice:  Undefined variable: con in /home/vjg3ni8aszyy/public_html/includes/templates/header.php on line 212
+[19-Aug-2019 13:16:39 UTC] PHP Fatal error:  Call to a member function prepare() on null in /home/vjg3ni8aszyy/public_html/includes/templates/header.php on line 212
+[01-May-2020 09:58:23 UTC] PHP Notice:  Undefined variable: con in /home/nfon3at344mf/public_html/baramoskahana/includes/templates/header.php on line 212
+[01-May-2020 09:58:23 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/nfon3at344mf/public_html/baramoskahana/includes/templates/header.php:212
+Stack trace:
+#0 /home/nfon3at344mf/public_html/baramoskahana/init.php(37): include()
+#1 /home/nfon3at344mf/public_html/baramoskahana/index.php(9): include('/home/nfon3at34...')
+#2 {main}
+  thrown in /home/nfon3at344mf/public_html/baramoskahana/includes/templates/header.php on line 212
+[01-May-2020 10:03:28 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'baramos.aya' doesn't exist in /home/nfon3at344mf/public_html/baramoskahana/includes/templates/header.php:216
+Stack trace:
+#0 /home/nfon3at344mf/public_html/baramoskahana/includes/templates/header.php(216): PDOStatement->execute()
+#1 /home/nfon3at344mf/public_html/baramoskahana/init.php(37): include('/home/nfon3at34...')
+#2 /home/nfon3at344mf/public_html/baramoskahana/index.php(9): include('/home/nfon3at34...')
+#3 {main}
+  thrown in /home/nfon3at344mf/public_html/baramoskahana/includes/templates/header.php on line 216
+[01-May-2020 10:03:37 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'baramos.aya' doesn't exist in /home/nfon3at344mf/public_html/baramoskahana/includes/templates/header.php:216
+Stack trace:
+#0 /home/nfon3at344mf/public_html/baramoskahana/includes/templates/header.php(216): PDOStatement->execute()
+#1 /home/nfon3at344mf/public_html/baramoskahana/init.php(37): include('/home/nfon3at34...')
+#2 /home/nfon3at344mf/public_html/baramoskahana/index.php(9): include('/home/nfon3at34...')
+#3 {main}
+  thrown in /home/nfon3at344mf/public_html/baramoskahana/includes/templates/header.php on line 216
+[01-May-2020 10:03:41 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'baramos.aya' doesn't exist in /home/nfon3at344mf/public_html/baramoskahana/includes/templates/header.php:216
+Stack trace:
+#0 /home/nfon3at344mf/public_html/baramoskahana/includes/templates/header.php(216): PDOStatement->execute()
+#1 /home/nfon3at344mf/public_html/baramoskahana/init.php(37): include('/home/nfon3at34...')
+#2 /home/nfon3at344mf/public_html/baramoskahana/hagza.php(37): include('/home/nfon3at34...')
+#3 {main}
+  thrown in /home/nfon3at344mf/public_html/baramoskahana/includes/templates/header.php on line 216
+[01-May-2020 10:03:43 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'baramos.aya' doesn't exist in /home/nfon3at344mf/public_html/baramoskahana/includes/templates/header.php:216
+Stack trace:
+#0 /home/nfon3at344mf/public_html/baramoskahana/includes/templates/header.php(216): PDOStatement->execute()
+#1 /home/nfon3at344mf/public_html/baramoskahana/init.php(37): include('/home/nfon3at34...')
+#2 /home/nfon3at344mf/public_html/baramoskahana/information.php(7): include('/home/nfon3at34...')
+#3 {main}
+  thrown in /home/nfon3at344mf/public_html/baramoskahana/includes/templates/header.php on line 216
+[01-May-2020 10:03:43 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'baramos.aya' doesn't exist in /home/nfon3at344mf/public_html/baramoskahana/includes/templates/header.php:216
+Stack trace:
+#0 /home/nfon3at344mf/public_html/baramoskahana/includes/templates/header.php(216): PDOStatement->execute()
+#1 /home/nfon3at344mf/public_html/baramoskahana/init.php(37): include('/home/nfon3at34...')
+#2 /home/nfon3at344mf/public_html/baramoskahana/kahna.php(7): include('/home/nfon3at34...')
+#3 {main}
+  thrown in /home/nfon3at344mf/public_html/baramoskahana/includes/templates/header.php on line 216
+[01-May-2020 10:03:44 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'baramos.aya' doesn't exist in /home/nfon3at344mf/public_html/baramoskahana/includes/templates/header.php:216
+Stack trace:
+#0 /home/nfon3at344mf/public_html/baramoskahana/includes/templates/header.php(216): PDOStatement->execute()
+#1 /home/nfon3at344mf/public_html/baramoskahana/init.php(37): include('/home/nfon3at34...')
+#2 /home/nfon3at344mf/public_html/baramoskahana/download.php(5): include('/home/nfon3at34...')
+#3 {main}
+  thrown in /home/nfon3at344mf/public_html/baramoskahana/includes/templates/header.php on line 216
+[01-May-2020 10:05:10 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'baramos.aya' doesn't exist in /home/nfon3at344mf/public_html/baramoskahana/includes/templates/header.php:216
+Stack trace:
+#0 /home/nfon3at344mf/public_html/baramoskahana/includes/templates/header.php(216): PDOStatement->execute()
+#1 /home/nfon3at344mf/public_html/baramoskahana/init.php(37): include('/home/nfon3at34...')
+#2 /home/nfon3at344mf/public_html/baramoskahana/download.php(5): include('/home/nfon3at34...')
+#3 {main}
+  thrown in /home/nfon3at344mf/public_html/baramoskahana/includes/templates/header.php on line 216
+[01-May-2020 10:05:11 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'baramos.aya' doesn't exist in /home/nfon3at344mf/public_html/baramoskahana/includes/templates/header.php:216
+Stack trace:
+#0 /home/nfon3at344mf/public_html/baramoskahana/includes/templates/header.php(216): PDOStatement->execute()
+#1 /home/nfon3at344mf/public_html/baramoskahana/init.php(37): include('/home/nfon3at34...')
+#2 /home/nfon3at344mf/public_html/baramoskahana/index.php(9): include('/home/nfon3at34...')
+#3 {main}
+  thrown in /home/nfon3at344mf/public_html/baramoskahana/includes/templates/header.php on line 216
+[01-May-2020 10:05:14 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'baramos.aya' doesn't exist in /home/nfon3at344mf/public_html/baramoskahana/includes/templates/header.php:216
+Stack trace:
+#0 /home/nfon3at344mf/public_html/baramoskahana/includes/templates/header.php(216): PDOStatement->execute()
+#1 /home/nfon3at344mf/public_html/baramoskahana/init.php(37): include('/home/nfon3at34...')
+#2 /home/nfon3at344mf/public_html/baramoskahana/index.php(9): include('/home/nfon3at34...')
+#3 {main}
+  thrown in /home/nfon3at344mf/public_html/baramoskahana/includes/templates/header.php on line 216
+[01-May-2020 10:05:16 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'baramos.aya' doesn't exist in /home/nfon3at344mf/public_html/baramoskahana/includes/templates/header.php:216
+Stack trace:
+#0 /home/nfon3at344mf/public_html/baramoskahana/includes/templates/header.php(216): PDOStatement->execute()
+#1 /home/nfon3at344mf/public_html/baramoskahana/init.php(37): include('/home/nfon3at34...')
+#2 /home/nfon3at344mf/public_html/baramoskahana/index.php(9): include('/home/nfon3at34...')
+#3 {main}
+  thrown in /home/nfon3at344mf/public_html/baramoskahana/includes/templates/header.php on line 216
+[01-May-2020 10:06:30 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'baramos.aya' doesn't exist in /home/nfon3at344mf/public_html/baramoskahana/includes/templates/header.php:216
+Stack trace:
+#0 /home/nfon3at344mf/public_html/baramoskahana/includes/templates/header.php(216): PDOStatement->execute()
+#1 /home/nfon3at344mf/public_html/baramoskahana/init.php(37): include('/home/nfon3at34...')
+#2 /home/nfon3at344mf/public_html/baramoskahana/index.php(9): include('/home/nfon3at34...')
+#3 {main}
+  thrown in /home/nfon3at344mf/public_html/baramoskahana/includes/templates/header.php on line 216
+[01-May-2020 10:07:27 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'baramos.aya' doesn't exist in /home/nfon3at344mf/public_html/baramoskahana/includes/templates/header.php:216
+Stack trace:
+#0 /home/nfon3at344mf/public_html/baramoskahana/includes/templates/header.php(216): PDOStatement->execute()
+#1 /home/nfon3at344mf/public_html/baramoskahana/init.php(37): include('/home/nfon3at34...')
+#2 /home/nfon3at344mf/public_html/baramoskahana/index.php(9): include('/home/nfon3at34...')
+#3 {main}
+  thrown in /home/nfon3at344mf/public_html/baramoskahana/includes/templates/header.php on line 216
+[01-May-2020 10:09:59 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'baramos.aya' doesn't exist in /home/nfon3at344mf/public_html/baramoskahana/includes/templates/header.php:216
+Stack trace:
+#0 /home/nfon3at344mf/public_html/baramoskahana/includes/templates/header.php(216): PDOStatement->execute()
+#1 /home/nfon3at344mf/public_html/baramoskahana/init.php(37): include('/home/nfon3at34...')
+#2 /home/nfon3at344mf/public_html/baramoskahana/index.php(9): include('/home/nfon3at34...')
+#3 {main}
+  thrown in /home/nfon3at344mf/public_html/baramoskahana/includes/templates/header.php on line 216
+[01-May-2020 10:11:20 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'baramos.aya' doesn't exist in /home/nfon3at344mf/public_html/baramoskahana/includes/templates/header.php:216
+Stack trace:
+#0 /home/nfon3at344mf/public_html/baramoskahana/includes/templates/header.php(216): PDOStatement->execute()
+#1 /home/nfon3at344mf/public_html/baramoskahana/init.php(37): include('/home/nfon3at34...')
+#2 /home/nfon3at344mf/public_html/baramoskahana/index.php(9): include('/home/nfon3at34...')
+#3 {main}
+  thrown in /home/nfon3at344mf/public_html/baramoskahana/includes/templates/header.php on line 216
+[01-May-2020 10:11:42 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'baramos.aya' doesn't exist in /home/nfon3at344mf/public_html/baramoskahana/includes/templates/header.php:216
+Stack trace:
+#0 /home/nfon3at344mf/public_html/baramoskahana/includes/templates/header.php(216): PDOStatement->execute()
+#1 /home/nfon3at344mf/public_html/baramoskahana/init.php(37): include('/home/nfon3at34...')
+#2 /home/nfon3at344mf/public_html/baramoskahana/index.php(9): include('/home/nfon3at34...')
+#3 {main}
+  thrown in /home/nfon3at344mf/public_html/baramoskahana/includes/templates/header.php on line 216
+[01-May-2020 10:12:42 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'baramos.aya' doesn't exist in /home/nfon3at344mf/public_html/baramoskahana/includes/templates/header.php:216
+Stack trace:
+#0 /home/nfon3at344mf/public_html/baramoskahana/includes/templates/header.php(216): PDOStatement->execute()
+#1 /home/nfon3at344mf/public_html/baramoskahana/init.php(37): include('/home/nfon3at34...')
+#2 /home/nfon3at344mf/public_html/baramoskahana/index.php(9): include('/home/nfon3at34...')
+#3 {main}
+  thrown in /home/nfon3at344mf/public_html/baramoskahana/includes/templates/header.php on line 216
+[01-May-2020 10:15:38 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'baramos.aya' doesn't exist in /home/nfon3at344mf/public_html/baramoskahana/includes/templates/header.php:216
+Stack trace:
+#0 /home/nfon3at344mf/public_html/baramoskahana/includes/templates/header.php(216): PDOStatement->execute()
+#1 /home/nfon3at344mf/public_html/baramoskahana/init.php(37): include('/home/nfon3at34...')
+#2 /home/nfon3at344mf/public_html/baramoskahana/index.php(9): include('/home/nfon3at34...')
+#3 {main}
+  thrown in /home/nfon3at344mf/public_html/baramoskahana/includes/templates/header.php on line 216
+[01-May-2020 10:15:49 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'baramos.aya' doesn't exist in /home/nfon3at344mf/public_html/baramoskahana/includes/templates/header.php:216
+Stack trace:
+#0 /home/nfon3at344mf/public_html/baramoskahana/includes/templates/header.php(216): PDOStatement->execute()
+#1 /home/nfon3at344mf/public_html/baramoskahana/init.php(37): include('/home/nfon3at34...')
+#2 /home/nfon3at344mf/public_html/baramoskahana/index.php(9): include('/home/nfon3at34...')
+#3 {main}
+  thrown in /home/nfon3at344mf/public_html/baramoskahana/includes/templates/header.php on line 216
+[01-May-2020 10:28:20 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'baramos.aya' doesn't exist in /home/nfon3at344mf/public_html/baramoskahana/includes/templates/header.php:216
+Stack trace:
+#0 /home/nfon3at344mf/public_html/baramoskahana/includes/templates/header.php(216): PDOStatement->execute()
+#1 /home/nfon3at344mf/public_html/baramoskahana/init.php(37): include('/home/nfon3at34...')
+#2 /home/nfon3at344mf/public_html/baramoskahana/index.php(9): include('/home/nfon3at34...')
+#3 {main}
+  thrown in /home/nfon3at344mf/public_html/baramoskahana/includes/templates/header.php on line 216
+[01-May-2020 10:33:29 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'baramos.aya' doesn't exist in /home/nfon3at344mf/public_html/baramoskahana/includes/templates/header.php:216
+Stack trace:
+#0 /home/nfon3at344mf/public_html/baramoskahana/includes/templates/header.php(216): PDOStatement->execute()
+#1 /home/nfon3at344mf/public_html/baramoskahana/init.php(37): include('/home/nfon3at34...')
+#2 /home/nfon3at344mf/public_html/baramoskahana/index.php(9): include('/home/nfon3at34...')
+#3 {main}
+  thrown in /home/nfon3at344mf/public_html/baramoskahana/includes/templates/header.php on line 216
+[01-May-2020 10:33:37 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'baramos.aya' doesn't exist in /home/nfon3at344mf/public_html/baramoskahana/includes/templates/header.php:216
+Stack trace:
+#0 /home/nfon3at344mf/public_html/baramoskahana/includes/templates/header.php(216): PDOStatement->execute()
+#1 /home/nfon3at344mf/public_html/baramoskahana/init.php(37): include('/home/nfon3at34...')
+#2 /home/nfon3at344mf/public_html/baramoskahana/hagza.php(37): include('/home/nfon3at34...')
+#3 {main}
+  thrown in /home/nfon3at344mf/public_html/baramoskahana/includes/templates/header.php on line 216
+[01-May-2020 10:33:43 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'baramos.aya' doesn't exist in /home/nfon3at344mf/public_html/baramoskahana/includes/templates/header.php:216
+Stack trace:
+#0 /home/nfon3at344mf/public_html/baramoskahana/includes/templates/header.php(216): PDOStatement->execute()
+#1 /home/nfon3at344mf/public_html/baramoskahana/init.php(37): include('/home/nfon3at34...')
+#2 /home/nfon3at344mf/public_html/baramoskahana/hagza.php(37): include('/home/nfon3at34...')
+#3 {main}
+  thrown in /home/nfon3at344mf/public_html/baramoskahana/includes/templates/header.php on line 216
+[01-May-2020 10:33:45 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'baramos.aya' doesn't exist in /home/nfon3at344mf/public_html/baramoskahana/includes/templates/header.php:216
+Stack trace:
+#0 /home/nfon3at344mf/public_html/baramoskahana/includes/templates/header.php(216): PDOStatement->execute()
+#1 /home/nfon3at344mf/public_html/baramoskahana/init.php(37): include('/home/nfon3at34...')
+#2 /home/nfon3at344mf/public_html/baramoskahana/information.php(7): include('/home/nfon3at34...')
+#3 {main}
+  thrown in /home/nfon3at344mf/public_html/baramoskahana/includes/templates/header.php on line 216
+[01-May-2020 10:33:47 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'baramos.aya' doesn't exist in /home/nfon3at344mf/public_html/baramoskahana/includes/templates/header.php:216
+Stack trace:
+#0 /home/nfon3at344mf/public_html/baramoskahana/includes/templates/header.php(216): PDOStatement->execute()
+#1 /home/nfon3at344mf/public_html/baramoskahana/init.php(37): include('/home/nfon3at34...')
+#2 /home/nfon3at344mf/public_html/baramoskahana/kahna.php(7): include('/home/nfon3at34...')
+#3 {main}
+  thrown in /home/nfon3at344mf/public_html/baramoskahana/includes/templates/header.php on line 216
+[01-May-2020 10:33:51 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'baramos.aya' doesn't exist in /home/nfon3at344mf/public_html/baramoskahana/includes/templates/header.php:216
+Stack trace:
+#0 /home/nfon3at344mf/public_html/baramoskahana/includes/templates/header.php(216): PDOStatement->execute()
+#1 /home/nfon3at344mf/public_html/baramoskahana/init.php(37): include('/home/nfon3at34...')
+#2 /home/nfon3at344mf/public_html/baramoskahana/index.php(9): include('/home/nfon3at34...')
+#3 {main}
+  thrown in /home/nfon3at344mf/public_html/baramoskahana/includes/templates/header.php on line 216
+[01-May-2020 10:33:54 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'baramos.aya' doesn't exist in /home/nfon3at344mf/public_html/baramoskahana/includes/templates/header.php:216
+Stack trace:
+#0 /home/nfon3at344mf/public_html/baramoskahana/includes/templates/header.php(216): PDOStatement->execute()
+#1 /home/nfon3at344mf/public_html/baramoskahana/init.php(37): include('/home/nfon3at34...')
+#2 /home/nfon3at344mf/public_html/baramoskahana/kahna.php(7): include('/home/nfon3at34...')
+#3 {main}
+  thrown in /home/nfon3at344mf/public_html/baramoskahana/includes/templates/header.php on line 216
+[01-May-2020 10:33:56 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'baramos.aya' doesn't exist in /home/nfon3at344mf/public_html/baramoskahana/includes/templates/header.php:216
+Stack trace:
+#0 /home/nfon3at344mf/public_html/baramoskahana/includes/templates/header.php(216): PDOStatement->execute()
+#1 /home/nfon3at344mf/public_html/baramoskahana/init.php(37): include('/home/nfon3at34...')
+#2 /home/nfon3at344mf/public_html/baramoskahana/information.php(7): include('/home/nfon3at34...')
+#3 {main}
+  thrown in /home/nfon3at344mf/public_html/baramoskahana/includes/templates/header.php on line 216
+[01-May-2020 10:33:57 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'baramos.aya' doesn't exist in /home/nfon3at344mf/public_html/baramoskahana/includes/templates/header.php:216
+Stack trace:
+#0 /home/nfon3at344mf/public_html/baramoskahana/includes/templates/header.php(216): PDOStatement->execute()
+#1 /home/nfon3at344mf/public_html/baramoskahana/init.php(37): include('/home/nfon3at34...')
+#2 /home/nfon3at344mf/public_html/baramoskahana/hagza.php(37): include('/home/nfon3at34...')
+#3 {main}
+  thrown in /home/nfon3at344mf/public_html/baramoskahana/includes/templates/header.php on line 216
+[01-May-2020 10:33:58 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'baramos.aya' doesn't exist in /home/nfon3at344mf/public_html/baramoskahana/includes/templates/header.php:216
+Stack trace:
+#0 /home/nfon3at344mf/public_html/baramoskahana/includes/templates/header.php(216): PDOStatement->execute()
+#1 /home/nfon3at344mf/public_html/baramoskahana/init.php(37): include('/home/nfon3at34...')
+#2 /home/nfon3at344mf/public_html/baramoskahana/index.php(9): include('/home/nfon3at34...')
+#3 {main}
+  thrown in /home/nfon3at344mf/public_html/baramoskahana/includes/templates/header.php on line 216
+[01-May-2020 15:42:30 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'baramos.aya' doesn't exist in /home/nfon3at344mf/public_html/baramoskahana/includes/templates/header.php:216
+Stack trace:
+#0 /home/nfon3at344mf/public_html/baramoskahana/includes/templates/header.php(216): PDOStatement->execute()
+#1 /home/nfon3at344mf/public_html/baramoskahana/init.php(37): include('/home/nfon3at34...')
+#2 /home/nfon3at344mf/public_html/baramoskahana/index.php(9): include('/home/nfon3at34...')
+#3 {main}
+  thrown in /home/nfon3at344mf/public_html/baramoskahana/includes/templates/header.php on line 216
+[01-May-2020 21:21:37 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'baramos.aya' doesn't exist in /home/nfon3at344mf/public_html/baramoskahana/includes/templates/header.php:216
+Stack trace:
+#0 /home/nfon3at344mf/public_html/baramoskahana/includes/templates/header.php(216): PDOStatement->execute()
+#1 /home/nfon3at344mf/public_html/baramoskahana/init.php(37): include('/home/nfon3at34...')
+#2 /home/nfon3at344mf/public_html/baramoskahana/index.php(9): include('/home/nfon3at34...')
+#3 {main}
+  thrown in /home/nfon3at344mf/public_html/baramoskahana/includes/templates/header.php on line 216
+[01-May-2020 21:21:39 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'baramos.aya' doesn't exist in /home/nfon3at344mf/public_html/baramoskahana/includes/templates/header.php:216
+Stack trace:
+#0 /home/nfon3at344mf/public_html/baramoskahana/includes/templates/header.php(216): PDOStatement->execute()
+#1 /home/nfon3at344mf/public_html/baramoskahana/init.php(37): include('/home/nfon3at34...')
+#2 /home/nfon3at344mf/public_html/baramoskahana/information.php(7): include('/home/nfon3at34...')
+#3 {main}
+  thrown in /home/nfon3at344mf/public_html/baramoskahana/includes/templates/header.php on line 216
+[02-May-2020 09:56:14 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'baramos.aya' doesn't exist in /home/nfon3at344mf/public_html/baramoskahana/includes/templates/header.php:216
+Stack trace:
+#0 /home/nfon3at344mf/public_html/baramoskahana/includes/templates/header.php(216): PDOStatement->execute()
+#1 /home/nfon3at344mf/public_html/baramoskahana/init.php(37): include('/home/nfon3at34...')
+#2 /home/nfon3at344mf/public_html/baramoskahana/index.php(9): include('/home/nfon3at34...')
+#3 {main}
+  thrown in /home/nfon3at344mf/public_html/baramoskahana/includes/templates/header.php on line 216
+[02-May-2020 15:43:22 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'baramos.aya' doesn't exist in /home/nfon3at344mf/public_html/baramoskahana/includes/templates/header.php:216
+Stack trace:
+#0 /home/nfon3at344mf/public_html/baramoskahana/includes/templates/header.php(216): PDOStatement->execute()
+#1 /home/nfon3at344mf/public_html/baramoskahana/init.php(37): include('/home/nfon3at34...')
+#2 /home/nfon3at344mf/public_html/baramoskahana/index.php(9): include('/home/nfon3at34...')
+#3 {main}
+  thrown in /home/nfon3at344mf/public_html/baramoskahana/includes/templates/header.php on line 216
+[02-May-2020 15:43:48 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'baramos.aya' doesn't exist in /home/nfon3at344mf/public_html/baramoskahana/includes/templates/header.php:216
+Stack trace:
+#0 /home/nfon3at344mf/public_html/baramoskahana/includes/templates/header.php(216): PDOStatement->execute()
+#1 /home/nfon3at344mf/public_html/baramoskahana/init.php(37): include('/home/nfon3at34...')
+#2 /home/nfon3at344mf/public_html/baramoskahana/index.php(9): include('/home/nfon3at34...')
+#3 {main}
+  thrown in /home/nfon3at344mf/public_html/baramoskahana/includes/templates/header.php on line 216
+[02-May-2020 15:43:52 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'baramos.aya' doesn't exist in /home/nfon3at344mf/public_html/baramoskahana/includes/templates/header.php:216
+Stack trace:
+#0 /home/nfon3at344mf/public_html/baramoskahana/includes/templates/header.php(216): PDOStatement->execute()
+#1 /home/nfon3at344mf/public_html/baramoskahana/init.php(37): include('/home/nfon3at34...')
+#2 /home/nfon3at344mf/public_html/baramoskahana/index.php(9): include('/home/nfon3at34...')
+#3 {main}
+  thrown in /home/nfon3at344mf/public_html/baramoskahana/includes/templates/header.php on line 216
+[02-May-2020 16:50:16 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'baramos.aya' doesn't exist in /home/nfon3at344mf/public_html/baramoskahana/includes/templates/header.php:216
+Stack trace:
+#0 /home/nfon3at344mf/public_html/baramoskahana/includes/templates/header.php(216): PDOStatement->execute()
+#1 /home/nfon3at344mf/public_html/baramoskahana/init.php(37): include('/home/nfon3at34...')
+#2 /home/nfon3at344mf/public_html/baramoskahana/download.php(5): include('/home/nfon3at34...')
+#3 {main}
+  thrown in /home/nfon3at344mf/public_html/baramoskahana/includes/templates/header.php on line 216
+[02-May-2020 16:50:18 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'baramos.aya' doesn't exist in /home/nfon3at344mf/public_html/baramoskahana/includes/templates/header.php:216
+Stack trace:
+#0 /home/nfon3at344mf/public_html/baramoskahana/includes/templates/header.php(216): PDOStatement->execute()
+#1 /home/nfon3at344mf/public_html/baramoskahana/init.php(37): include('/home/nfon3at34...')
+#2 /home/nfon3at344mf/public_html/baramoskahana/hagza.php(37): include('/home/nfon3at34...')
+#3 {main}
+  thrown in /home/nfon3at344mf/public_html/baramoskahana/includes/templates/header.php on line 216
+[02-May-2020 16:50:20 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'baramos.aya' doesn't exist in /home/nfon3at344mf/public_html/baramoskahana/includes/templates/header.php:216
+Stack trace:
+#0 /home/nfon3at344mf/public_html/baramoskahana/includes/templates/header.php(216): PDOStatement->execute()
+#1 /home/nfon3at344mf/public_html/baramoskahana/init.php(37): include('/home/nfon3at34...')
+#2 /home/nfon3at344mf/public_html/baramoskahana/information.php(7): include('/home/nfon3at34...')
+#3 {main}
+  thrown in /home/nfon3at344mf/public_html/baramoskahana/includes/templates/header.php on line 216
+[02-May-2020 16:50:22 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'baramos.aya' doesn't exist in /home/nfon3at344mf/public_html/baramoskahana/includes/templates/header.php:216
+Stack trace:
+#0 /home/nfon3at344mf/public_html/baramoskahana/includes/templates/header.php(216): PDOStatement->execute()
+#1 /home/nfon3at344mf/public_html/baramoskahana/init.php(37): include('/home/nfon3at34...')
+#2 /home/nfon3at344mf/public_html/baramoskahana/kahna.php(7): include('/home/nfon3at34...')
+#3 {main}
+  thrown in /home/nfon3at344mf/public_html/baramoskahana/includes/templates/header.php on line 216
+[04-May-2020 04:16:51 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'baramos.aya' doesn't exist in /home/nfon3at344mf/public_html/baramoskahana/includes/templates/header.php:216
+Stack trace:
+#0 /home/nfon3at344mf/public_html/baramoskahana/includes/templates/header.php(216): PDOStatement->execute()
+#1 /home/nfon3at344mf/public_html/baramoskahana/init.php(37): include('/home/nfon3at34...')
+#2 /home/nfon3at344mf/public_html/baramoskahana/index.php(9): include('/home/nfon3at34...')
+#3 {main}
+  thrown in /home/nfon3at344mf/public_html/baramoskahana/includes/templates/header.php on line 216
+[04-May-2020 04:17:09 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'baramos.aya' doesn't exist in /home/nfon3at344mf/public_html/baramoskahana/includes/templates/header.php:216
+Stack trace:
+#0 /home/nfon3at344mf/public_html/baramoskahana/includes/templates/header.php(216): PDOStatement->execute()
+#1 /home/nfon3at344mf/public_html/baramoskahana/init.php(37): include('/home/nfon3at34...')
+#2 /home/nfon3at344mf/public_html/baramoskahana/index.php(9): include('/home/nfon3at34...')
+#3 {main}
+  thrown in /home/nfon3at344mf/public_html/baramoskahana/includes/templates/header.php on line 216

@@ -1,0 +1,3219 @@
+/* start my framwork */
+
+
+
+*{
+
+
+
+    -webkit-box-sizing: border-box;
+
+
+
+    -moz-box-sizing: border-box;
+
+
+
+    -o-box-sizing: border-box;
+
+
+
+    box-sizing: border-box;
+
+
+
+ }
+
+
+
+
+
+
+
+ body {
+
+
+
+
+
+
+
+ 	 background-color: #fcf7e3;
+
+
+
+ }
+
+
+
+
+
+.dropdown-menu {
+
+
+
+	
+
+
+
+	width: 220px;
+
+
+
+	right: 25%; 
+
+
+
+	z-index: 999999;
+
+
+
+	top: 0; 
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+body {
+
+
+
+    direction: rtl;
+
+
+
+	
+
+
+
+}
+
+
+
+
+
+
+
+.asterisk{
+
+
+
+    font-size: 30px;
+
+
+
+    position: absolute;
+
+
+
+    left: 20px;
+
+
+
+    top: 8px;
+
+
+
+    color: #d20707;
+
+
+
+}
+
+
+
+
+
+
+
+.active {
+
+
+
+    
+
+
+
+    color:#730020 !important; 
+
+
+
+}
+
+
+
+
+
+
+
+.line {
+
+
+
+	
+
+
+
+	position: absolute !important;
+
+
+
+    right: 480px;
+
+
+
+    top: 528px;
+
+
+
+}
+
+
+
+
+
+#map {
+
+        height: 250px;
+
+        width: 40%;
+		
+		margin-bottom: 20px;
+	
+		margin-right: 60%; 
+	
+		border: 2px solid #730020; 
+		
+		overflow: hidden;
+		
+       }
+
+
+@media(max-width:999px) {
+	
+	#map {
+		
+		width: 90%; 
+        margin: auto; 
+		margin-bottom: 10px;
+	}
+}
+       
+@media(min-width:1200px){
+
+#map {
+		
+	/*margin-right: 56%; */
+
+		}
+}
+
+
+/* end my framwork */ 
+
+
+
+
+
+
+
+/* start upper-bar */  
+
+
+
+.upper-bar{
+
+
+
+	background-color:#482915;
+
+
+
+}
+
+
+
+
+
+
+
+.header-d{
+
+
+
+	float:right;
+
+
+
+	color:#fff;
+
+
+
+	font-size:18px;
+
+
+
+	font-weight:bold;
+
+
+
+	font-family: 'El Messiri', sans-serif;
+
+
+
+	margin:10px 0 0 0;
+
+
+
+	 
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.logo{
+
+
+
+	float:left;
+
+
+
+}
+
+
+
+
+
+
+
+.logo img{
+
+
+
+	margin: 0 ;  
+
+
+
+	padding: 0 ;  
+
+
+
+	width: 150px;  
+
+
+
+	height: 74px !important; 
+
+
+
+	position: absolute;
+
+
+
+	top: 8px;
+	
+	
+	left: 110px;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+@media(max-width:767px){
+
+
+
+	.logo img{
+
+
+
+		
+
+
+
+		width: 120px !important ; 
+
+
+
+		
+
+
+
+	}
+
+
+
+	
+
+
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	
+	.logo img{
+
+
+
+		
+
+
+
+		left: 70px;
+
+
+		
+
+
+
+	}
+
+}
+
+
+
+
+.header-b{
+
+
+
+	font-size:25px;
+
+
+
+	float:right;
+
+
+
+	color:#fff;
+
+
+
+	font-family: 'El Messiri', sans-serif;
+
+
+
+	margin:0px 8px 2px 0; 
+
+
+
+}
+
+
+
+
+
+
+
+/* end upper-bar */  
+
+
+
+
+
+
+
+/* start navbar */ 
+
+
+
+
+
+
+
+
+
+
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form{
+
+
+
+	background-color:#fff;
+
+
+
+}
+
+
+
+
+
+
+
+.navbar-inverse{
+
+
+
+	background-color:#fff;
+
+
+
+	border:none;
+
+
+
+    margin-top: 10px; 
+
+
+
+    padding-top: 1px;
+
+
+
+    overflow: hidden; 
+
+
+
+	padding: 0; 
+
+
+
+	margin: 0; 
+
+
+
+	border-radius: 0%;
+
+
+
+ 
+
+
+
+}
+
+
+
+
+
+
+
+.navbar-inverse .navbar-nav > .active > a,
+
+
+
+.navbar-inverse .navbar-nav > .active > a:hover,
+
+
+
+.navbar-inverse .navbar-nav > .active > a:focus {
+
+
+
+  color:#730020;
+
+
+
+  background-color: #fff;
+
+
+
+}
+
+
+
+
+
+
+
+.navbar-inverse .navbar-nav > li > a {
+
+
+
+	
+
+
+
+	color:#482915; 
+
+
+
+	font-size:20px;
+
+
+
+    font-weight: bold; 
+
+
+
+    margin-right: 10px; 
+
+
+
+     
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.navbar-inverse .navbar-nav > li > a:hover,
+
+
+
+.navbar-inverse .navbar-nav > li > a:focus {
+
+
+
+  color: #730020;
+
+
+
+  background-color: transparent;
+
+
+
+}
+
+
+
+
+
+
+
+.navbar-inverse .navbar-toggle{
+
+
+
+	background-color:#482915;
+
+
+
+}
+
+
+
+
+
+
+
+.navbar-brand {
+
+
+
+    padding-left: 30px; 
+
+
+
+    padding-top: 3px; 
+
+
+
+}
+
+
+
+
+
+
+
+.navbar-brand .fa-inverse {
+
+
+
+    color: #fff; 
+
+
+
+}
+
+
+
+
+
+
+
+/*.navbar-brand .fa-inverse:hover {
+
+
+
+    color:#730020;  
+
+
+
+}*/
+
+
+
+
+
+
+
+.navbar-brand .fa-circle {
+
+
+
+    color: #482915; 
+
+
+
+}
+
+
+
+
+
+
+
+/* phones and tablets */ 
+
+
+
+
+
+
+
+@media(max-width:767px){
+
+
+
+   
+
+
+
+    .header-d{
+
+
+
+	
+
+
+
+	font-size:15px; 
+
+
+
+    margin-right: 12px; 
+
+
+
+     }
+
+
+
+    
+
+
+
+    .header-b{
+
+
+
+	font-size:22px; 
+
+
+
+    margin-right: 14px;
+
+
+
+     }
+
+
+
+	
+
+
+
+	.logo img{
+
+
+
+	 
+
+
+
+	width: 150px;  
+
+
+
+	height: 70px !important; 
+
+
+
+	position: absolute;
+
+
+
+	top: 8px;
+
+
+
+	left: 20px;
+
+
+
+}
+
+
+
+}
+
+
+
+
+
+
+
+/* end navbar */  
+
+
+
+
+
+
+
+
+
+
+
+/* start upper bar two */ 
+
+
+
+
+
+
+
+.upper-bar-two {
+
+
+
+
+
+
+
+    background-color: #730020; 
+
+
+
+    padding: 5px; 
+
+
+
+    margin: 0; 
+
+
+
+}
+
+
+
+
+
+
+
+.upper-bar-two-desc {
+
+
+
+
+
+
+
+    font-size: 22px;
+
+
+
+    color: #fff;
+
+
+
+    text-align: center;
+
+
+
+    margin: 0; 
+
+
+
+}
+
+
+
+/* phones and tablets */ 
+
+
+
+
+
+
+
+@media(max-width:767px){
+.upper-bar-two-desc {
+font-size: 16px;
+
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* end upper bar two */
+
+
+
+
+
+
+
+/* start aya */ 
+
+
+
+
+
+
+
+.upper-bar-aya {
+
+
+
+
+
+
+
+    background-color: #cc9d6a; 
+
+
+
+    padding: 5px; 
+
+
+
+    margin: 0; 
+
+
+
+}
+
+
+
+
+
+
+
+.upper-bar-two-aya {
+
+
+
+
+
+
+
+    font-size: 22px;
+
+
+
+    color: #482915;
+
+
+
+    text-align: center;
+
+
+
+    margin: 0; 
+
+
+
+}
+
+
+
+
+
+
+
+/* end aya */ 
+
+
+
+/* start carousel */
+
+
+
+
+
+
+
+
+
+
+
+.carousel-indicators {
+
+
+
+  bottom: 0; 
+
+
+
+}
+
+
+
+
+
+
+
+.carousel-indicators li {
+
+
+
+    height: 13px;
+
+
+
+    width: 13px; 
+
+
+
+    border: 1px solid #482915; 
+
+
+
+ 
+
+
+
+}
+
+
+
+
+
+
+
+.carousel-indicators .active {
+
+
+
+    height: 15px; 
+
+
+
+    width: 15px; 
+
+
+
+    background-color: #730020;
+
+
+
+   
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.slider .item {
+
+
+
+    -webkit-background-size: cover; /* nazbta al sora */
+
+
+
+    -moz-background-size: cover;
+
+
+
+    -o-background-size: cover;
+
+
+
+    background-size: cover;
+
+
+
+   
+
+
+
+} 
+
+
+
+
+
+
+
+.carousel-inner > .item > img {
+
+
+
+    width: 100%; /* w zalk lma a3ml zoom out al photo tmla al carousel kolo wla afdla an tkon al photo akbar w gwda a7sn  */
+
+
+
+    
+
+
+
+}
+
+
+
+
+
+
+
+/* end carousel */ 
+
+
+
+
+
+
+
+
+
+
+
+/* start copyright */
+
+
+
+
+
+
+
+.copyright {
+
+
+
+    border-top: 2px solid #c0c0c0; 
+
+
+
+    padding: 20px;
+
+
+
+	background-color: #482915;
+
+
+
+	color: #fff; 
+
+
+
+	border: none; 
+
+
+
+}
+
+
+
+
+
+
+
+/* end copyright */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* start hagza *************************************/ 
+
+
+.stop {
+	background-color: #fcf7e3;
+    position: absolute;
+    top: 20px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    color: red;
+    z-index: 999;
+
+}
+
+.stop-text {
+	text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    padding-top: 50%;
+}
+
+
+
+
+
+
+.my-form {
+
+
+
+
+
+
+
+    padding-top: 25px; 
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.form-control:focus {
+
+
+
+border-color: #482915;  
+
+
+
+-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(72, 41, 21, 0.6); 
+
+
+
+box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(72, 41, 21, 0.6);
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.send-success {
+
+
+
+    
+
+
+
+    text-align: center;
+
+
+
+    font-size: 30px;
+
+
+
+	margin-top: 60px; 
+
+
+
+}
+
+
+
+
+
+
+
+.btn-hagza {
+
+
+
+	
+
+
+
+	width: 220px;
+
+
+
+	background-color: #482915; 
+
+
+
+	color: #fff; 
+
+
+
+	border: none;
+
+
+
+	outline: none; 
+
+
+
+	-webkit-transition: .4s ease-in-out;
+
+
+
+	-moz-transition: .4s ease-in-out;
+
+
+
+	-o-transition: .4s ease-in-out;
+
+
+
+	transition: .4s ease-in-out;
+
+
+
+}
+
+
+
+
+
+
+
+.btn-hagza:hover {
+
+
+
+	
+
+
+
+	border: 5px solid #fff; 
+
+
+
+	background-color: #482915; 
+
+
+
+}
+
+
+
+
+
+
+
+.btn-warning.disabled:hover, .btn-warning[disabled]:hover, fieldset[disabled] .btn-warning:hover, .btn-warning.disabled:focus, .btn-warning[disabled]:focus, fieldset[disabled] .btn-warning:focus, .btn-warning.disabled.focus, .btn-warning[disabled].focus, fieldset[disabled] .btn-warning.focus{
+
+
+
+	
+
+
+
+		background-color: #482915; 
+
+
+
+	    border: none; 
+
+
+
+}
+
+
+
+
+
+
+
+.btn-warning:active:hover, .btn-warning.active:hover, .open > .dropdown-toggle.btn-warning:hover, .btn-warning:active:focus, .btn-warning.active:focus, .open > .dropdown-toggle.btn-warning:focus, .btn-warning:active.focus, .btn-warning.active.focus, .open > .dropdown-toggle.btn-warning.focus {
+
+
+
+	
+
+
+
+	background-color: #482915; 
+
+
+
+	border: none; 
+
+
+
+}
+
+
+
+
+
+
+
+.has-error .help-block, .has-error .control-label, .has-error .radio, .has-error .checkbox, .has-error .radio-inline, .has-error .checkbox-inline, .has-error.radio label, .has-error.checkbox label, .has-error.radio-inline label, .has-error.checkbox-inline label {
+
+
+
+	
+
+
+
+	font-size: 16px;
+
+
+
+	font-weight: bold; 
+
+
+
+	text-align: center;
+
+
+
+	margin-bottom: 0;
+
+
+
+}
+
+
+
+
+
+
+
+.form-horizontal .form-group-lg .control-label {
+
+
+
+	color: #482915; 
+	font-size: 22px;
+
+
+
+}
+
+
+
+
+
+
+
+.the-errors .msg {
+
+
+
+	padding: 10px; 
+
+
+
+	text-align: center; 
+
+
+
+	background-color: #fff; 
+
+
+
+	font-weight: bold; 
+
+
+
+	font-size: 18px; 
+
+
+
+	width: 45%;
+
+
+
+	margin: auto;
+
+
+
+	margin-bottom: 10px; 
+
+
+
+}
+
+
+
+
+
+
+
+.the-errors .msg.error {
+
+
+
+	
+
+
+
+ 	border: 2px solid #cd6858; 
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+.the-errors .msg.success {
+
+
+
+	
+
+
+
+ 	border: 2px solid #080; 
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+.the-erro .alert-danger {
+
+
+
+	
+
+
+
+	text-align: center;
+
+
+
+    font-size: 25px;
+
+
+
+    margin-top: 50px;
+
+
+
+	
+
+
+
+}
+
+
+
+
+
+
+
+.hagza-img {
+
+
+
+	margin-top: 26px;
+
+
+
+
+
+
+
+}
+
+
+
+ 
+
+
+
+.hagza-img img {
+
+
+
+		    height: 675px !important; 
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+/* contact */ 
+
+
+
+
+
+
+
+.contact {
+
+
+
+	margin: 20px;
+
+
+
+    padding: 15px;
+
+
+
+    border: 2px solid #730020;
+
+
+
+    border-top-right-radius: 25px;
+
+
+
+    margin-bottom: 20px;
+
+
+
+}
+
+
+
+
+
+
+
+.contact-head {
+
+
+
+    color: #730020; 
+
+
+
+	font-size: 25px;
+
+
+
+    font-weight: bold;
+
+
+
+    text-decoration: underline;
+
+
+
+    margin-bottom: 25px;
+
+
+
+}
+
+
+
+.contact-one{
+
+
+
+	font-size: 20px; 
+
+
+
+	font-weight: bold;
+
+
+
+	color: black;
+
+
+
+	
+
+
+
+}
+
+
+
+
+
+
+
+.contact-two a{
+
+
+
+	font-size: 20px; 
+
+
+
+	font-weight: bold;
+
+
+
+	color: black; 
+
+
+
+	margin-right: 20px;
+
+
+
+	margin-bottom: 5px;
+	
+	margin-top: 10px;
+
+
+
+}
+
+
+
+
+
+
+
+.contact-two:hover a {
+
+
+
+
+
+
+
+	color: #730020; 
+
+
+
+}
+
+
+
+
+
+
+
+@media(max-width:767px){
+
+
+
+
+
+
+
+.contact-one{
+
+
+
+	font-size: 13px; 
+
+
+
+	margin-bottom: 10px;
+
+
+
+}
+
+
+
+
+
+
+
+.contact-two a{
+
+
+
+	font-size: 15px; 
+
+
+
+}  
+
+
+
+}
+
+
+
+
+
+
+
+/* end hagza */ 
+
+
+
+
+
+
+
+
+
+
+
+/* start info *****************************************************/
+
+
+
+.info-container img
+
+{
+
+    max-width: 100%; 
+
+}
+
+
+
+.info {
+
+
+
+    padding: 5px 0 5px 0; 
+
+    margin: 2px 0 5px 0; 
+
+    
+
+}
+
+
+
+.info-img {
+
+
+
+    margin-top: 25px; 
+
+}
+
+
+
+.info-img img {
+
+	border: 3px solid #ccc; 
+
+	border-radius: 5%; 
+
+	-webkit-box-shadow:0 3px 10px #ccc;
+
+	-moz-box-shadow:0 3px 10px #ccc;
+
+	box-shadow:0 3px 10px #ccc;
+
+	height: 693px !important
+
+
+
+}
+
+
+
+.info-h {
+
+    color: #482915;
+
+    margin-top: 20px; 
+
+    margin-bottom: 20px; 
+
+    font-weight: bold;
+
+}
+
+
+
+.info-p {
+
+   
+    border: 2px solid #482915;
+
+    border-radius: 20px; 
+
+    padding: 15px; 
+
+    margin: 18px; 
+
+    line-height: 1.9; 
+
+    text-align: center;
+
+	color: #020a0b; 
+    
+
+}
+
+
+
+.info-span {
+
+
+
+	display: block; 
+
+    text-align: center; 
+
+    font-family: 'El Messiri', sans-serif;
+
+    font-weight: bold; 
+
+    margin-top: 14px;
+
+    padding: 8px;  
+
+    font-size: 18px; 
+
+}
+
+
+
+@media(max-width:767px){
+
+   
+
+    .info-img img {
+
+	height: 400px !important
+
+   }
+
+	
+
+	.info-h {
+
+		font-size: 25px;
+
+	}
+
+    
+
+  }
+
+/* footer */ 
+
+
+
+
+
+
+
+.footer-info {
+
+
+
+	
+
+
+
+	margin-top: 50px;
+
+
+
+}
+
+
+
+  
+
+
+
+
+
+
+
+/* end info */
+
+
+
+
+
+
+
+/* start art *****************************************************/
+
+
+
+
+
+
+
+.art-container {
+
+
+
+    margin-bottom: 25px;
+
+
+
+    color: #020a0b;
+
+
+
+}
+
+
+
+
+
+
+
+.art-container img
+
+
+
+{
+
+
+
+    max-width: 100%; 
+	height: 300px !important; 
+
+
+
+
+}
+
+
+.art-container img.imgtwo
+
+
+
+{
+
+
+
+    max-width: 100%; 
+	height: 400px !important; 
+	margin-right: 8%; 
+
+
+}
+
+
+
+
+
+
+.art {
+
+
+
+
+
+
+
+    padding: 5px 0 5px 0; 
+
+
+
+    margin: 2px 0 5px 0; 
+
+
+
+	float: right; 
+
+
+
+
+
+
+
+    
+
+
+
+}
+
+
+
+
+
+
+
+.art-img {
+
+
+
+
+
+
+
+    margin-top: 80px;
+
+
+
+	float: left; 
+
+
+
+}
+
+
+
+
+
+
+
+/*.art-img img {
+
+
+
+	border: 3px solid #ccc; 
+
+
+
+	border-radius: 5%; 
+
+
+
+	-webkit-box-shadow:0 3px 10px #ccc;
+
+
+
+	-moz-box-shadow:0 3px 10px #ccc;
+
+
+
+	box-shadow:0 10px 20px #ccc;
+
+
+
+	overflow: hidden; 
+
+
+
+	max-width: 100%;
+
+
+
+}*/
+
+
+
+
+
+
+
+.art-h {
+
+
+
+    color: #482915;
+
+
+
+    margin-top: 20px; 
+
+
+
+    margin-bottom: 20px; 
+
+
+
+    font-weight: bold;
+
+
+
+}
+
+
+
+
+
+
+
+.art-p {
+
+
+
+    
+
+
+
+    font-size: 24px; 
+
+
+
+    padding: 20px; 
+
+
+
+    margin: 18px; 
+
+
+
+   line-height: 1.7; 
+
+
+
+   font-weight: bold;
+
+
+
+
+
+
+
+   border: 3px double;
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+}
+
+
+
+
+
+
+
+.art-span {
+
+
+
+
+
+
+
+    display: block; 
+
+
+
+    text-align: center; 
+
+
+
+    font-family: 'El Messiri', sans-serif;
+
+
+
+    font-weight: bold; 
+
+
+
+    margin-top: 14px;
+
+
+
+    padding: 8px;  
+
+
+
+    font-size: 18px; 
+
+
+
+}
+
+
+
+
+
+
+
+@media(max-width:767px){
+
+
+
+	
+
+
+
+	.art-h {
+
+
+
+		font-size: 30px;
+
+
+
+		font-weight: bold;
+
+
+
+	}
+
+
+
+	.art-p {
+
+
+
+		margin-bottom: 0; 
+
+
+
+		font-size: 16px;
+
+
+
+		font-weight: bold;
+
+
+
+	}
+
+
+
+	
+
+
+
+	.art-container {
+
+
+
+		margin-bottom: 0;
+
+
+
+	}  
+
+
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+/* end art */
+
+
+
+
+
+
+
+/* start v and a */
+
+
+
+
+
+
+
+.vanda {
+
+
+
+	margin-top: 20px; 
+
+
+
+	margin-bottom: 15px;
+
+
+
+	padding: 5px; 
+
+
+
+	border-bottom: 1px solid #482915;  
+
+
+
+}
+
+
+
+
+
+
+
+.vanda-h {
+
+
+
+	text-align: center; 
+
+
+
+	color: #482915;
+
+
+
+    margin-top: 10px;
+
+
+
+    margin-bottom: 20px;
+
+
+
+    font-weight: bold;
+
+
+
+} 
+
+
+
+
+
+
+
+
+
+
+
+.vanda-info {
+
+
+
+	margin-top: 30px; 
+
+
+
+}
+
+
+
+
+
+
+
+.vanda-bt-one , .vanda-bt-two {
+
+
+
+	width: 285Px;
+
+
+
+	background-color: #482915; 
+
+
+
+	color: #fff; 
+
+
+
+	border: none;
+
+
+
+	outline: none; 
+
+
+
+	display: block; 
+
+
+
+	margin: auto; 
+
+
+
+	margin-bottom: 30px;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.vanda-bt-one:hover , .vanda-bt-two:hover{
+
+
+
+	text-decoration: none;
+
+
+
+	color: #fff;
+
+
+
+}
+
+
+
+
+
+
+
+.vanda-bt-one:hover .fa-arrow-down , .vanda-bt-two:hover .fa-arrow-down{
+
+
+
+	
+
+
+
+	color: #d20707;
+
+
+
+}
+
+
+
+
+
+
+
+/* phones and tablets */ 
+
+
+
+
+
+
+
+@media(max-width:767px){
+
+
+
+	
+
+
+
+	.vanda-h {
+
+
+
+		font-size: 25px; 
+
+
+
+	}
+
+
+
+   
+
+
+
+	.vanda-bt-one  {
+
+
+
+		margin-bottom: 15px; 
+
+
+
+	}
+
+
+
+    
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* end  v and a */ 
+
+
+
+
+
+
+
+/* start kahna*/ 
+
+
+
+
+
+
+
+/* start post */
+
+
+
+.post {
+
+
+
+    padding: 5px 0 5px 0; 
+
+
+
+    margin: 10px 0 5px 0; 
+
+
+
+   
+
+
+
+    
+
+
+
+}
+
+
+
+
+
+
+
+.post-h {
+
+
+
+    color: #482915;
+
+
+
+    margin-top: 20px;
+
+
+
+    margin-bottom: 20px;
+
+
+
+    font-weight: bold;
+
+
+
+}
+
+
+
+
+
+
+
+.post-p {
+
+
+
+    
+
+
+
+    font-size: 21px; 
+
+
+
+    padding: 5px 0 5px 0; 
+
+
+
+    margin: 8px 0 5px 0; 
+
+
+
+    line-height: 1.8; 
+
+
+
+    font-weight: bold;
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+.post img
+
+
+
+{
+
+
+
+    max-width: 100%; 
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.post-img {
+
+
+
+
+
+
+
+    margin-top: 10px; 
+
+
+
+}
+
+
+
+
+
+
+
+.post-img img {
+
+
+
+	border: 3px solid #ccc; 
+
+
+
+	border-radius: 5%; 
+
+
+
+	-webkit-box-shadow:0 3px 10px #ccc;
+
+
+
+	-moz-box-shadow:0 3px 10px #ccc;
+
+
+
+	box-shadow:0 3px 10px #ccc;
+
+
+
+	height: 270px !important
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.post-img-tow img {
+
+
+
+	width: 250px; 
+
+
+
+	height: 300px !important;  
+
+
+
+}
+
+
+
+
+
+
+
+.post-span {
+
+
+
+    color: #730020;
+
+
+
+    text-align: center;
+
+
+
+    font-size: 16px;
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+.post-span-two {
+
+
+
+    display: block; 
+
+
+
+    text-align: center; 
+
+
+
+    font-family: 'El Messiri', sans-serif;
+
+
+
+    font-weight: bold; 
+
+
+
+    margin-top: 18px; 
+
+
+
+}
+
+
+
+
+
+
+
+.ex-two {
+
+
+
+    font-size: 19px; 
+
+
+
+    color: grey; 
+
+
+
+    margin-top: 25px; 
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+/* end post */
+
+
+
+
+
+
+
+@media(max-width:767px){
+
+
+
+
+
+
+
+  .post-h {
+
+
+
+  	font-size: 27px;
+
+
+
+  }
+
+
+
+
+
+
+
+  .post-p {
+
+
+
+  	font-size: 17px;
+
+
+
+  }
+
+
+
+
+
+
+
+  .post-span {
+
+
+
+    margin-top: 18px;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.ex-two {
+
+
+
+    font-size: 16px; 
+
+
+
+}
+
+
+
+
+
+
+
+ }
+
+
+
+@media(min-width:1200px){
+
+
+
+	
+
+
+
+	.imgone{
+
+
+
+	
+
+
+
+		margin-bottom: 20px ;
+
+
+
+	}	
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* end kahna*/ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.datetimepicker .datetimepicker-dropdown-bottom-right .dropdown-menu {
+
+
+
+	
+
+
+
+direction: ltr !important
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* start scroll To top */
+
+
+
+#scroll-top {
+
+
+
+    width: 50px; 
+
+
+
+    height: 40px; 
+
+
+
+    color: #fff; 
+
+
+
+    background-color: #482915; 
+
+
+
+    text-align: center; 
+
+
+
+    position: fixed; /* yt7rka m3ia 3ltoll */ 
+
+
+
+    right: 15px; 
+
+
+
+    bottom: 70px;
+
+
+
+    z-index: 9999;
+
+
+
+    cursor: pointer; 
+
+
+
+    display: none; /* w hna a5ra 5tow 3ashn nzhro b jq */ 
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* end scroll To top */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
